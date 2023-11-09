@@ -53,6 +53,8 @@ ul {
 margin: 0 16px;
     max-width: 1161px;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right : 16px;
 }
 
 .header__container {
@@ -293,21 +295,19 @@ padding-bottom: 24px;
         max-width: 345px;
     }
     .sneaker__big {
+        padding-left: 16px;
+        padding-right: 16px;
         border-radius: 12px;
     }
     .sneaker {
         padding: 24px;
     }
-    .sneaker__head {
-    }
+  
     .sneaker__img {
         height: 172px;
 align-self: stretch;
     }
-    .sneaker__name {
-    }
-    .sneaker__color {
-    }
+
     .sneaker__description {
         display: flex;
         flex-direction: column;
