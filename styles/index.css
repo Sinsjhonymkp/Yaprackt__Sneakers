@@ -18,6 +18,7 @@
     margin: 0;
     padding: 0;
 }
+
 html,
 body {
     height: 100%;
@@ -50,11 +51,11 @@ ul {
 
 
 .container {
-margin: 0 16px;
+    margin: 0 16px;
     max-width: 1161px;
     margin: 0 auto;
     padding-left: 16px;
-    padding-right : 16px;
+    padding-right: 16px;
 }
 
 .header__container {
@@ -96,6 +97,7 @@ margin: 0 16px;
     display: flex;
     gap: 24px;
 
+
 }
 
 .shoes__title {
@@ -126,8 +128,9 @@ margin: 0 16px;
     transition: 500ms;
 
 }
-.shoes__items:hover{
-  transition: 500ms;
+
+.shoes__items:hover {
+    transition: 500ms;
     transform: translateY(-10px);
     box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
 
@@ -200,91 +203,103 @@ margin: 0 16px;
     font-weight: 700;
     line-height: normal;
 }
+
 .sneaker__big {
     background: #FFF;
     border-radius: 50px;
-   
+
 }
+
 .sneaker {
     padding: 48px;
-  
+
 }
+
 .sneaker__head {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 .sneaker__img {
     display: flex;
- 
+
     height: 600px;
     padding-bottom: 32px;
 }
+
 .sneaker__name {
     text-align: start;
-    color:  #121723;
-font-family: Anonymous Pro;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
 
 }
+
 .sneaker__color {
     text-align: start;
-    color:  #121723;
-font-family: Anonymous Pro;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-padding-bottom: 24px;
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 24px;
 }
+
 .sneaker__description {
     color: var(--black, #121723);
-font-family: Anonymous Pro;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
     display: flex;
     flex-direction: row;
 
 }
+
 .sneaker__history {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap:32px;
+    gap: 32px;
     padding-right: 32px;
 }
+
 .sneaker__param {
     width: 50%;
     display: flex;
     flex-direction: column;
-    
+
 
 }
+
 .sneaker__param-about {
-    color:#121723;
-font-family: Anonymous Pro;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-padding-bottom: 24px;
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 24px;
 
 }
+
 .sneaker__param-item {
     padding: 24px 0;
-  justify-content: center;
+    justify-content: center;
     border-top: solid 1px black;
     display: flex;
     justify-content: space-between;
-}  
-.sneaker__param-material{
+}
+
+.sneaker__param-material {
     border-bottom: solid 1px black;
 }
 
-@media (width <= 768px) {
+@media (width <=768px) {
     .header__container {
         display: flex;
         flex-direction: column;
@@ -293,56 +308,84 @@ padding-bottom: 24px;
 
     .container {
         max-width: 345px;
+
     }
+
     .sneaker__big {
         border-radius: 12px;
     }
+
     .sneaker {
         padding: 24px;
     }
-  
+
+    .sneaker__name {
+        color: #121723;
+        font-family: Anonymous Pro;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 32px */
+    }
+
+    .sneaker__color {
+        color: #121723;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 20px */
+    }
+
     .sneaker__img {
         height: 172px;
-align-self: stretch;
+        align-self: stretch;
     }
 
     .sneaker__description {
         display: flex;
         flex-direction: column;
-       
+
     }
+
     .sneaker__history {
         width: 100%;
         color: #121723;
-font-family: Anonymous Pro;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-padding-bottom: 32px;
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        padding-bottom: 32px;
 
     }
+
     .sneaker__param {
         width: 100%;
     }
+
     .sneaker__param-about {
-        color:  #121723;
-font-family: Anonymous Pro;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        color: #121723;
+        font-family: Anonymous Pro;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
+
     .sneaker__param-item {
         color: #121723;
-text-align: right;
-font-family: Anonymous Pro;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        text-align: right;
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
-   
+
     .footer__container {
         padding-top: 32px;
         margin-bottom: 25px;
@@ -352,7 +395,32 @@ line-height: normal;
         justify-content: space-between;
         align-items: center;
     }
-    .shoes__title{
+
+    .shoes__title {
         font-size: 32px;
     }
-  }
+
+
+    .container__shoes {}
+
+    .link__shoes {}
+
+    .shoes__items {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+
+    }
+
+    .shoes__photo {
+        align-self: stretch;
+        height: 254px;
+        max-width: 343px;
+    }
+
+    .shoes__items-info {}
+
+    .shoes__name {}
+
+    .shoes__description {}
+}
